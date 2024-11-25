@@ -1,0 +1,76 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    padding-top: 30px;
+
+}
+.container{
+    background-image: url(./img/stopwatch-wooden-background-copy-space-text_188237-1845.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.subContainer{
+    width: 80%;
+    height: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+.stopWatch , .timer{
+    height: 100%;
+    width: 47%;
+    border-radius: 50%;
+}
+.stopWatch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: radial-gradient(circle, rgba(93,89,159,1) 0%, rgba(8,13,30,1) 93%);
+}
+.heading {
+    width: 40%;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    color: whitesmoke;
+}
+.subHeading1 , .subHeading2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    gap: 10px;
+}
+.subHeading2{
+    gap: 10px;
+}
+.btn{
+    padding: 40px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.btn button{
+    border-radius: 5px;
+    background-color: #00bbf0;
+    cursor: pointer;
+    border: none;
+    height: 40px;
+    width: 200px;
+
+
+}
